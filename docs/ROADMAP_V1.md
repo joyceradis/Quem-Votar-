@@ -38,7 +38,7 @@ Esta é a frente prioritária de conteúdo. O resultado de produto é acompanhad
 - #133 — cadência do worker de evidências: **concluída** (`evidence-industrial` passou de 5 min para horário). O incidente #171 (reaquisição da Câmara) é lane de dados separada, não é a cadência.
 
 **Reconstrução V6 — gate de release**
-- Fases 0–4 concluídas e em `main` (PRs #167/#168/#170); Fase 5 (corte atômico da superfície pública) date-gated a partir de 04/10/2026 via `scripts/cutover-v6.sh`. É pré-condição do release da baseline V6; não antecipa o corte nem reabre o núcleo eleitoral congelado.
+- Fases 0–4 concluídas e em `main` (Issue #167; PRs #168/#170); Fase 5 (corte atômico da superfície pública) date-gated a partir de 04/10/2026 via `scripts/cutover-v6.sh`. É pré-condição do release da baseline V6; não antecipa o corte nem reabre o núcleo eleitoral congelado.
 
 **Preflight de escala — concluído**
 1. #38 — coverage ledger e relatório read-only;
